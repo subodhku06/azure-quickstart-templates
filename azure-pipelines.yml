@@ -21,7 +21,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'RG1'
-    azureResourceManagerConnection: 'LABtoDev'
+    azureResourceManagerConnection: 'Sptest'
     subscriptionId: 'ef8e699b-a125-4b7d-831c-6f7412d3b4d8'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ARMPipelinesLAMP-rg'
